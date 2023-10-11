@@ -1,0 +1,36 @@
+.main-card{
+    box-shadow: 10px 10px 30px 10px hsla(210,7%,48%,.11);
+
+  border-radius: 8px;
+   width:350px;
+        padding: 10px;
+
+
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    border-radius: 8px;
+    padding: 5px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+h5{
+    font-weight: 400px;
+}
+.Chart{
+    box-shadow: 10px 10px 30px 10px hsla(210,7%,48%,.11);
+    padding:10px;
+  width:400px;
+  border-radius: 10px;
+}
+.chart-header{
+    width:250px;
+    text-align: center;
+    margin: 0 auto;
+}
+.ms-5.col-md-2 {
+    margin-right: 230px;
+}

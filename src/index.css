@@ -1,0 +1,26 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&family=Open+Sans&family=Poppins:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+  display: flex;
+}
+.Sidebar{
+  flex: 1;
+}
+.Dashboard {
+  flex: 2;
+}

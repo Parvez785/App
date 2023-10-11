@@ -1,0 +1,9 @@
+.Main-section{
+  display: flex;
+}
+.wd-25{
+  flex:0 0 15%;
+}
+.wd-75{
+  flex: 0 0 85%;
+}

@@ -1,14 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import {  
-  BrowserRouter as Router,  
-  Routes,  
-  Route,  
-  Link  
-}   
-from 'react-router-dom';  
+import App from './App';  
 import SidebarNew from './components/Sidebar/Sidebar';
 import { registerLicense } from '@syncfusion/ej2-base';
 import Newcalendar from './components/Calendar/Calendar'

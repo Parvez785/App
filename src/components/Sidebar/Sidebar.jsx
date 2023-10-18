@@ -1,7 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { slide as Menu } from 'react-burger-menu';
-
 import './Siebar.css';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import IconButton from '@mui/material/IconButton';
@@ -25,16 +23,13 @@ import Navbar from '../Navbar/Navbar';
 export default function SidebarNew() {
     return (
 
-      <div id="outer-container">
-      <Menu pageWrapId={"page-wrap"} />
-      <main id="page-wrap">
-        <Menu>
+      <div className='main-sidebar'>
          <div className="logo py-4 d-flex justify-content-start ps-4">
               <img src="https://i.postimg.cc/QtC7SdGL/crm.png" alt="Logo" />
             </div>
             <Nav className='d-flex flex-column'>
             <p>Apps</p>
-            <Nav.Link href="/" className='d-flex align-items-center'>
+            <Nav.Link href="/Dashboard" className='d-flex align-items-center'>
             <IconButton>
                 <DashboardIcon />
               </IconButton>
@@ -97,10 +92,8 @@ export default function SidebarNew() {
               <span>Barchart</span>
             </Nav.Link>
             </Nav>
-
-        </Menu>
-      </main>
-    </div>
+            </div>
+      
 
   );
 }
